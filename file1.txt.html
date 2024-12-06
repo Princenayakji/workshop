@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#" method="post">
+        <label for="sno">S.NO.:</label>
+        <input type="text" id="sno" name="sno" value="234" readonly><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+
+        <label for="fname">F'Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter father's name"><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" id="singing" name="hobbies" value="singing">
+        <label for="singing">Singing</label>
+        <input type="checkbox" id="dancing" name="hobbies" value="dancing">
+        <label for="dancing">Dancing</label>
+        <input type="checkbox" id="cooking" name="hobbies" value="cooking">
+        <label for="cooking">Cooking</label><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number"><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob"><br>
+
+        <label for="upload">Upload pic:</label>
+        <input type="file" id="upload" name="upload"><br>
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="">---select city---</option>
+            <option value="city1">City 1</option>
+            <option value="city2">City 2</option>
+        </select><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" placeholder="Enter your address"></textarea><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button" onclick="window.print()">Print</button>
+    </form>
+</body>
+</html>
